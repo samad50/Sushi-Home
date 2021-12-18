@@ -1,0 +1,399 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h1, h3, h4, h5, h6{
+   font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*code start here */
+
+.header{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+
+.header .bg-light{
+ 	background: #e59090 !important;
+ }
+ .header .navbar-brand img{
+	width: 70%;
+	margin-top: -10px;
+}
+ 
+.header .navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 15px;
+}
+.header .navbar-light .navbar-nav .nav-link img{
+	font-size: 20px;
+	margin-top: -1px;
+}
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.banner .inner-banner{
+	width: 100%;
+	padding: 40px 0px; 
+	color: white;
+}
+.banner .inner-banner h4{
+	
+	font-size: 110px;
+	line-height: 120px;
+	font-weight: 700;
+	padding: 20px 0px 0px;
+
+}
+.banner .inner-banner p{
+	
+	    font-size: 25px;
+    line-height: 35px;
+    font-weight: 300;
+    padding: 20px 0px 0px
+
+}
+.banner .inner-button{
+	
+	width: 100%;
+	padding: 20px 0px;
+}
+.banner .btn-primary{
+	width: 20%;
+	border-radius: 40px;
+	background: #6db3ab;
+	color: #fff;
+	border-color:#6db3ab;
+	font-size: 20px;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+	
+}
+.banner .btn-primary:hover, .banner .btn-primary:focus{
+	background: #e59090;
+	color: #fff;
+	border-color:#e59090 ;
+}
+.oriental{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+	margin-top: 60px;
+}
+.oriental-text{
+	width: 100%;
+	padding: 60px 0px;
+	color: #2fb4ac;
+}
+.oriental-text h4{
+   font-size:60px;
+   line-height: 70px;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+.oriental-text p{
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 400;
+  padding: 20px 0px;
+}
+.oriental .inner-button{
+	width: 100%;
+	padding: 20px 0px;
+}
+.oriental .btn-primary{
+	width: 40%;
+	border-radius: 40px;
+	background: #e59090;
+	color: #fff;
+	border-color:#e59090;
+	font-size: 18px;
+	line-height: 28px;
+	text-transform: uppercase;
+	font-weight: 600;
+	
+}
+.oriental .btn-primary:hover, .oriental .btn-primary:focus{
+	background: #6db3ab;
+	color: #fff;
+	border-color:#6db3ab ;
+	}
+.special-menu{
+	width: 100%;
+	padding: 50px 0px;
+	background: url("../images/shape.png") center top no-repeat;
+	background-size: cover;
+}
+.special-menu .title{
+	padding: 20px 0px;
+	text-align: center;
+}
+.special-menu .title h4{
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 1px;
+}
+.special-menu .special{
+	width: 100%;
+	padding: 40px 0px;
+}
+.special-menu .menu-image{
+	width: 100%;
+	text-align: center;
+}
+.special-menu .menu-text{
+	width: 100%;
+	text-align: center;
+	padding: 10px 0px;
+}
+.special-menu .menu-text h4{
+	font-size: 25px;
+	line-height: 35px;
+	font-weight: 700;
+	color: #fff;
+	
+}
+.special-menu .menu-text p{
+	 font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #fff;
+ 
+}
+.statastics{
+	width: 100%;
+	padding: 80px 0px;
+	
+}
+.statastics .title{
+	width: 100%;
+	text-align: center;
+}
+.statastics .title h4{
+	font-size: 65px;
+	line-height: 75px;
+	font-weight: 700;
+	color: #2fb4ac;
+}
+.statastics .title p{
+	font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #2fb4ac;
+ margin-top: 20px;
+ padding: 0px 202px;
+}
+.statastics .states{
+	width: 100%;
+	margin-top: 60px;
+	text-align: center;
+}
+
+
+
+
+
+.kawai{
+	width: 100%;
+	background: url("../images/kb.png") center top no-repeat;
+	background-size: cover;
+	padding: 80px 0px;
+	
+	margin-top: 60px;
+}
+
+.kawai .kawai-text{
+	width: 100%;
+	padding: 60px 0px;
+	color: #2fb4ac;
+	margin-top: 50px;
+	margin-left: 80px;
+
+}
+.kawai .kawai-image{
+	margin-left: 70px;
+}
+.kawai-text h4{
+   font-size:60px;
+   line-height: 70px;
+   font-weight: 700;
+   color: #fff;
+   letter-spacing: 1px;
+   padding: 0px 22px;
+}
+.kawai-text p{
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 400;
+  color: #fff;
+  padding: 20px 25px;
+}
+.kawai .inner-button{
+	width: 100%;
+	padding: 20px 0px;
+}
+.kawai .btn-primary{
+	width: 40%;
+	border-radius: 40px;
+	background: #e59090;
+	color: #fff;
+	border-color:#e59090;
+	font-size: 18px;
+	line-height: 28px;
+	text-transform: uppercase;
+	font-weight: 600;
+	
+}
+.kawai .btn-primary:hover, .kawai .btn-primary:focus{
+	background: #000;
+	color: #fff;
+	border-color:#000 ;
+	}
+.takasi{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/tmb.png") center top no-repeat;
+	background-size: cover;
+}
+.takasi .inner-takasi{
+	width: 100%;
+	text-align: center;
+	padding: 75px 0px;
+
+}
+.takasi .inner-takasi p{
+	font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #fff;
+  padding: 30px 181px;
+}
+.takasi .inner-takasi h4{
+	font-size:35px;
+   line-height: 0px;
+   font-weight: 700;
+   color: #fff;
+   letter-spacing: 1px;
+}
+.your-sushi{
+	width: 100%;
+	/*background-color: #ffe98a;
+	padding: 80px 0px;*/
+	padding: 80px 0px;
+	margin-top: -10px;
+	background: url("../images/ssb.png") center top no-repeat;
+	background-size: cover;
+}
+.your-sushi .your-sushi-inner{
+	text-align: center;
+}
+.your-sushi .your-sushi-inner h4{
+	font-size:45px;
+   line-height: 55px;
+   font-weight: 700;
+   color: #21243d;
+   letter-spacing: 1px;
+}
+.your-sushi .your-sushi-inner p{
+	font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #21243d;
+  padding: 30px 0px;
+}
+.your-sushi .boot{
+	width: 40%;
+	text-align: center;
+	margin-left: 317px;
+}
+.your-sushi .form-control{
+	border-radius: 40px;
+	background: #fff !important;
+}
+.your-sushi .btn-outline-secondary{
+		border-radius: 40px;
+	}
+	   
+	   .footer{
+	width: 100%;
+	padding: 80px 0px 10px;
+	background: #777777;
+}
+.footer p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	margin-top: 20px;
+}
+.footer h5{
+	font-size: 16px;
+	line-height: 28px;
+	color: #fff;
+	font-weight: 700;
+	margin-top: 20px;
+}
+.footer ul{
+	padding: 0px 0px 50px;
+}
+.footer ul li{
+	list-style: none;
+}
+.footer ul li a{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #fff;
+}
+.copyright{
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+.social-icons{
+	width: 100%;
+	margin: 50px 0px;
+	text-align: center;
+}
+.social-icons ul{
+	display: block;
+	width: 100%;
+
+}
+.social-icons ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons ul li a{
+	display: block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	border-radius: 100%;
+	color:red;
+	background:green;
+	font-size: 35px;
+	margin: 0px 15px 100px;
+	transition: .3s;
+}
+.social-icons ul li a:hover{
+color: #000;
+background: #08c;
+}
+

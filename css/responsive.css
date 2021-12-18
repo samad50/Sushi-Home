@@ -1,0 +1,192 @@
+
+/*Most of the low resolution mobile phone css*/
+@media (min-width: 260px) and (max-width: 320px){
+
+	/*css start*/
+
+
+
+	                   .header .navbar-light .navbar-toggler{
+						color: #fff;
+						text-align: right;
+						border-color: #fff;
+                         margin-left: -78px;
+					    }
+					   .header .navbar-nav{
+						margin: 30px 0px 0px;
+					    }
+	/*css end*/
+
+
+}
+
+
+/*Most of the mobile phone css*/
+@media (min-width: 321px) and (max-width: 480px){
+
+	/*css start*/
+					.header .navbar-light .navbar-toggler{
+						color: #fff;
+						text-align: right;
+						border-color: #fff;
+						margin-left: -78px;
+
+					    }
+					   .header .navbar-nav{
+						margin: 30px 0px 0px;
+					    }
+
+					    .banner{
+					    	width: 70%;
+					    }
+					    /*.banner .inner-banner{
+					    	width: 70%;
+					    }
+					    .oriental{
+					    	width: 70%;
+					    }
+					    .oriental-text{
+	                       width: 70%;
+	                   }
+	                   .oriental .inner-button{
+	                   	width: 70%;
+	                   }
+	                   .special-menu{
+	                       width: 70%;
+	                   }
+	                   .special-menu .special{
+	                   	width: 70%;
+	                   }
+	                   .special-menu .menu-image{
+	                      width: 70%;
+	                  }
+	                  .special-menu .menu-text{
+	                        width: 70%;
+	                    }
+	                    .statastics{
+	                      width: 70%;
+	                  }
+	                  .statastics .title{
+	                    width: 70%;
+	                }
+	                .statastics .states{
+	                  width: 70%;
+		                  }*/
+		                  
+
+
+
+
+					   .banner .inner-banner h4 {
+					    font-size: 40px;
+					    line-height: 50px;
+				         }
+				        .banner .inner-banner p {
+					    font-size: 15px;
+					    line-height: 25px
+						 }
+						 .banner .btn-primary {
+						 	width: 40%;
+						 	font-size: 13px;
+						 	line-height: 23px;
+						 }
+						 .oriental-text h4 {
+						    font-size: 40px;
+						    line-height: 50px;
+						}
+						.oriental-text p{
+							font-size: 18px;
+							line-height: 28px;
+
+						}
+						.oriental  .btn-primary{
+							    font-size: 15px;
+                               line-height: 25px;
+                               width: 40%;
+						}
+						.special-menu .title h4{
+							font-size: 40px;
+							line-height: 50px;
+						}
+						.statastics .title h4{
+							font-size: 40px;
+							line-height: 50px;
+						}
+						.statastics .title p {
+						    font-size: 20px;
+						    line-height: 30px;
+						    padding: 0px 0px;
+						}
+						.kawai-text h4{
+							padding: 0px 0px;
+							font-size: 40px;
+							line-height: 50px;
+							margin-left: -50px;
+						}
+						.kawai-text p{
+							padding: 0px 80px;
+							font-size: 16px;
+							line-height: 26px;
+							margin-left: -135px;
+						}
+						.kawai .btn-primary{
+							font-size: 14px;
+							line-height: 24px;
+							margin-left: 25px;
+						}
+						.kawai .kawai-image{
+							margin-left: 60px;
+							width: 70%;
+						}
+						.takasi .inner-takasi p{
+							font-size: 15px;
+							line-height: 30px;
+							padding: 0px 0px;
+							margin-top: 30px;
+						} 
+						.takasi .inner-takasi h4{
+							margin-top: 30px;
+						}
+						.footer h5{
+							margin-top: 20px;
+						}
+						.footer p{
+							margin-top: 30px;
+						}
+
+
+	/*css end*/
+
+
+}
+
+/*most of the low resolution tablet, mobile phone css*/
+@media (min-width: 481px) and (max-width: 767px){
+
+
+	/*css start*/
+			.header .navbar-light .navbar-toggler{
+				color: #fff;
+				text-align: right;
+				border-color: #fff;
+			}
+			.header .navbar-nav{
+				padding: 30px 0px;
+			}
+	/*css end*/
+
+}
+
+/*most of the ipad, tablet,notebook css*/
+@media (min-width: 768px) and (max-width: 1024px){
+
+	/*css start*/
+	.header .navbar-light .navbar-toggler{
+		color: #fff;
+		text-align: right;
+		border-color: #fff;
+	}
+	/*css end*/
+
+	
+}
